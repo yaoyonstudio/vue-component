@@ -1,0 +1,59 @@
+{
+	"sliders": [
+		{
+			"id": 1,
+			"title": "this is slider 1",
+			"src": "https://www.thatyou.cn/wp-content/test/slider/s1.jpg"
+		},
+		{
+			"id": 2,
+			"title": "this is slider 2",
+			"src": "https://www.thatyou.cn/wp-content/test/slider/s2.jpg"
+		},
+		{
+			"id": 3,
+			"title": "this is slider 3",
+			"src": "https://www.thatyou.cn/wp-content/test/slider/s3.jpg"
+		},
+		{
+			"id": 4,
+			"title": "this is slider 4",
+			"src": "https://www.thatyou.cn/wp-content/test/slider/s4.jpg"
+		}
+	],
+	"industry": [
+	    {
+	        "id": 1,
+	        "title": "旅游/餐饮/娱乐/休闲/购物",
+	        "sub": [
+	            {"id": 2, "title": "浴场"},
+	            {"id": 3, "title": "旅游"},
+	            {"id": 4, "title": "宾馆"},
+	            {"id": 5, "title": "文化"},
+	            {"id": 6, "title": "艺术"}
+	        ]
+	    },
+	    {
+	        "id": 10,
+	        "title": "机械设备",
+	        "sub": [
+	            {"id": 11, "title": "浴场"},
+	            {"id": 12, "title": "旅游2"},
+	            {"id": 13, "title": "宾馆2"},
+	            {"id": 14, "title": "文化2"},
+	            {"id": 15, "title": "艺术2"}
+	        ]
+	    },
+	    {
+	        "id": 20,
+	        "title": "日常服务",
+	        "sub": [
+	            {"id": 21, "title": "浴场3"},
+	            {"id": 22, "title": "旅游3"},
+	            {"id": 23, "title": "宾馆3"},
+	            {"id": 24, "title": "文化3"},
+	            {"id": 25, "title": "艺术3"}
+	        ]
+	    }
+	]
+}

@@ -1,0 +1,55 @@
+.zkContainer {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 渐变动画 */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+/* Toast */
+.zkToastContainer{
+}
+.zkToastContent{
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: 300px;
+  z-index: 9999999;
+  border-radius: 4px;
+  word-wrap: break-word; 
+  word-break: normal; 
+}
+
+/* Alert */
+.zkAlertContainer{
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zkAlertContent{
+  width: 60vw;
+  padding: 10px;
+  background-color: #fff;
+  color: #444;
+  word-wrap: break-word; 
+  word-break: normal; 
+}
+
+
+
